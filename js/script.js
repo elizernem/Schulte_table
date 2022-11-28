@@ -43,11 +43,11 @@ table.addEventListener("click", (evt) => {
       checkedNumbers[checkedNumbers.length - 1] + 1
     ) {
       evt.target.classList.add("table__cell--correct");
-      setTimeout(removeColor, 1000, evt.target);
+      setTimeout(removeColor, 500, evt.target);
       checkedNumbers.push(Number(evt.target.innerHTML));
     } else {
       evt.target.classList.add("table__cell--error");
-      setTimeout(removeColor, 1000, evt.target);
+      setTimeout(removeColor, 500, evt.target);
     }
   }
   if (
