@@ -50,8 +50,8 @@ body {
   aspect-ratio: 1 / 1;
   margin: 0;
   text-align: center;
-  padding-top: calc(50% - 15px);
-  padding-bottom: calc(50% - 15px);
+  padding-top: calc(50% - 18.1px);
+  padding-bottom: calc(50% - 18.1px);
 }
 
 .table__cell:nth-child(5n) {
