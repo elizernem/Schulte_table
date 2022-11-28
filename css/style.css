@@ -29,18 +29,7 @@ body {
   flex-grow: 1;
 }
 
-.wrapper {
-  width: 70%;
-  max-height: 700px;
-  min-height: 320px;
-  display: flex;
-  align-items: center;
-  aspect-ratio: 1 / 1;
-  justify-content: center;
-  margin: auto;
-}
-
-/* .table {
+.table {
   min-width: 320px;
   max-width: 700px;
   width: 70%;
@@ -52,17 +41,6 @@ body {
   border: 1px solid black;
   border-bottom: none;
   vertical-align: bottom;
-} */
-
-.table {
-  min-width: 320px;
-  max-width: 500px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 20% 20% 20% 20% 20%;
-  border: 1px solid black;
-  border-bottom: none;
 }
 
 .table__cell {
