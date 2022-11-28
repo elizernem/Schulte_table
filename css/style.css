@@ -90,8 +90,7 @@ body {
   top: 30%;
 }
 
-.modal__button,
-.result__button {
+.button {
   display: block;
   margin: 0 auto;
   width: 40%;
@@ -103,9 +102,15 @@ body {
   font-family: inherit;
   color: black;
   font-size: 16px;
+  cursor: pointer;
 }
 
-.modal__button:hover {
+.button:hover {
+  color: white;
+  border: 2px solid white;
+}
+
+.button:hover {
   color: white;
   border: 2px solid white;
 }
